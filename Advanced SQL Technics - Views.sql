@@ -134,3 +134,19 @@ CREATE VIEW Sales.V_Order_Details_EU AS
     WHERE c.Country != 'USA'
 );
 GO
+
+/*
+    VIEWS
+    - Virtual Table based on result of Query without storing data.
+    - We use Views to persist Complex SQL Query in Database.
+    - Views are better than CTE - improves reusability in multiple Queries.
+    - Views are better than Tables - Flexible & ease to maintain.
+
+    USE CASES
+    - Store central Complex Business logic to be reused.
+    - Hide Complexity by offering friendly views to users.
+    - Data Security by hiding sensitive rows & columns.
+    - Flexibility & Dynamic.
+    - Offer your objects in Multiple Languages.
+    - Virtual layer (Data Marts) in Data warehouses.
+*/
